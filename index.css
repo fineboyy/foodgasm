@@ -1,0 +1,145 @@
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1, h2, .brand-name {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h3, h4, h5, h6, p, a, i, span, button {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    width: 180vh;
+    height: 150vh;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -84%;
+    right: -20%;
+
+
+    background-color: rgba(111, 228, 111, 0.3);
+    z-index: -1;
+
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar .brand .brand-name {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar i {
+    color: rgb(51, 165, 51);
+    font-size: 1.5rem;
+}
+
+.navbar .nav-items {
+    display: flex;
+    justify-content: space-around;
+    min-width: 25%;
+}
+
+.navbar .nav-items .nav-item {
+    color: rgb(15, 20, 15);
+    font-size: 1rem;
+}
+
+.navbar .fa-key {
+    color: black;
+    font-size: 1.8rem;
+}
+
+.main-area {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-side .title-text {
+    font-size: 3rem;
+    color: rgb(51, 165, 51);
+    margin: 0;
+}
+
+.left-side .title-text-2 {
+    font-size: 2rem;
+    color: black;
+    font-weight: normal;
+    margin: 0;
+
+}
+
+.left-side .subtitle-text {
+    font-size: 1rem;
+}
+.left-side .order-button {
+    margin-top: 2rem;
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(51, 165, 51);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.food-img {
+    background-image: url("images/food1.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.radio-buttons {
+    margin-top: 2rem;
+}
+
+.radio-buttons * {
+    margin-left: 3px;
+    margin-right: 3px;
+
+    background-color: rgb(51, 165, 51);
+}
