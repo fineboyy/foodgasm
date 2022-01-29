@@ -9,7 +9,7 @@
 }
 .jumbotron {
     height: 250px;
-    background-image: url("images/jumbo-food.jpg");
+    background-image: url("../images/jumbo-food.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -112,7 +112,7 @@
 }
 
 .card-img {
-    background-image: url("images/food2.jpg");
+    background-image: url("../images/food2.jpg");
     border-radius: 15px;
     background-size: cover;
     background-position: center;
@@ -244,7 +244,7 @@
     width: 100px;
     
     border-radius: 15px;
-    background-image: url("images/food2.jpg");
+    background-image: url("../images/food2.jpg");
     background-size: cover;
     background-position: center;
     margin-right: 20px;

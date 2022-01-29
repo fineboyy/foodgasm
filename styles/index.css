@@ -57,7 +57,7 @@ body {
 }
 
 .food-img {
-    background-image: url("images/food1.png");
+    background-image: url("../images/food1.png");
     background-size: cover;
     background-position: center;
     border-radius: 50%;
