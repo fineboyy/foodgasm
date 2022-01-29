@@ -21,7 +21,7 @@ body::after {
 }
 
 
-input {
+.input {
     padding: 7px 50px;
     text-align: center;
     border-radius: 25px;

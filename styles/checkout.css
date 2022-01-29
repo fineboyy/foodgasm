@@ -1,0 +1,185 @@
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body::after {
+    content: "";
+    width: 180vh;
+    height: 150vh;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: -99.8%;
+    left: -28%;
+
+
+    background-color: rgba(111, 228, 111, 0.3);
+    z-index: -2;
+
+    
+}
+
+
+.input {
+    padding: 7px 50px;
+    text-align: center;
+    border-radius: 25px;
+
+    font-size: 1rem;
+    border: 2px solid rgb(26, 156, 26);
+
+    color: rgb(6, 99, 52);
+
+}
+
+
+/* Upper Side from Login */
+
+
+.checkout-wrapper {
+    display: flex;
+    background-color: white;
+
+    margin-top: 5rem;
+}
+
+.cart {
+    flex-grow: 2;
+    padding: 80px 50px;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    height: 100px;
+    padding: 2rem 5px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-img {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+
+    border-radius: 15px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.cart-img1 {
+    background-image: url("../images/food2.jpg");
+}
+.cart-img2 {
+    background-image: url("../images/vegetable-salad.jpg");
+}
+.cart-img3 {
+    background-image: url("../images/eggs.jpg");
+}
+
+.item-profile {
+    display: flex;
+    align-items: center;
+}
+
+.item-text * {
+    display: block;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.plus-minus * {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fa {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.total {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.total-text {
+    font-size: 0.9rem;
+}
+
+.total-amount {
+    font-size: 1.3rem;
+    color: rgb(51, 165, 51);
+}
+
+.payment {
+    flex-grow: 1;
+    background-color: rgb(240, 245, 247);
+    padding: 80px 50px;
+}
+
+.payment-methods {
+    padding: 10px 0;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.payment-img {
+    width: 50px;
+    height: 50px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.payment-img1 {
+    background-image: url("../images/mtn.png");
+}
+.payment-img2 {
+    background-image: url("../images/vodafonecash.png");
+}
+.payment-img3 {
+    background-image: url("../images/visa.jpg");
+}
+
+form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form * {
+    margin-bottom: 1.5rem;
+}
+
+input {
+    padding: 10px 15px;
+    border:  2px solid rgba(0, 0, 0, 0.1);
+}
+
+.smaller {
+    width: 70px;
+}
+
+.confirm-payment {
+    background-color: rgb(51, 165, 51);
+    padding: 10px;
+    text-align: center;
+
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}

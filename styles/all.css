@@ -76,8 +76,9 @@ body::before {
 }
 
 .navbar .nav-items .nav-item {
-    color: rgb(15, 20, 15);
+    color: rgb(51, 165, 51);
     font-size: 1rem;
+    font-weight: bold;
 }
 
 
@@ -90,19 +91,8 @@ body::before {
     margin-top: 50vh;
     transform: translateY(-65%);
     width: 100%;
-
-    /* background: rgba(0, 0, 0, 0.21); */
-    
-
-
-
 }
 
-.centered-area input, .pill-button {
-    box-shadow: 6px 2px 99px 53px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 6px 2px 99px 53px rgba(0,0,0,0.1);
-    -moz-box-shadow: 6px 2px 99px 53px rgba(0,0,0,0.1);
-}
 
 label {
     display: block;
