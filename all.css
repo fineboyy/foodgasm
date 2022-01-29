@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,700&family=Mochiy+Pop+P+One&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.12.1/css/all.css");
 
 body {
-    height: 100vh;
     width: 100%;
     position: relative;
     margin: 0;
-    overflow: hidden;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 h1, h2, .brand-name {
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
-h3, h4, h5, h6, p, a, i, span, button, label {
+h3, h4, h5, h6, p, a, i, span, button, label, select, input {
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
+}
+
+a, button {
+    text-decoration: none;
 }
 
 .container {
@@ -43,6 +48,7 @@ body::before {
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 50px;
     padding-bottom: 10px;
 }
@@ -59,6 +65,7 @@ body::before {
 .navbar i {
     color: rgb(51, 165, 51);
     font-size: 1.5rem;
+    margin: 0 2px;
 }
 
 .navbar .nav-items {
@@ -72,11 +79,6 @@ body::before {
     font-size: 1rem;
 }
 
-.navbar .fa-key {
-    /* color: black; */
-    font-size: 1.8rem;
-}
-
 
 .centered-area {
     display: flex;
@@ -85,7 +87,8 @@ body::before {
     justify-content: center;
 
     margin-top: 50vh;
-    transform: translateY(-60%);
+    transform: translateY(-65%);
+    width: 100%;
 
     /* background: rgba(0, 0, 0, 0.21); */
     

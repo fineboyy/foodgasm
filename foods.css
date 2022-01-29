@@ -1,0 +1,280 @@
+.main-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.catalogue-container {
+    flex-grow: 3;
+    margin-right: 3rem;
+}
+.jumbotron {
+    height: 250px;
+    background-image: url("images/jumbo-food.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+
+    position: relative;
+
+    box-shadow: 1px -1px 16px 5px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px -1px 16px 5px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px -1px 16px 5px rgba(0,0,0,0.29);
+}
+
+.jumbo-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    background-color: rgba(0,0,0,0.29);
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 15px;
+}
+
+.jumbo-text * {
+    margin: 0;
+    margin-left: 50px;
+}
+
+.promo-off {
+    font-size: 3rem;
+    color: rgb(70, 233, 37);
+}
+
+
+.foods-nav {
+    margin-top: 3rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+
+}
+
+.foods-nav i {
+    color: rgb(70, 233, 37);
+}
+
+.foods-nav span {
+    font-size: 0.9rem;
+}
+
+.foods-nav-item {
+    cursor: pointer;
+}
+
+.foods-nav-item:nth-of-type(1) {
+    position: relative;
+}
+
+.foods-nav-item:nth-of-type(1)::after {
+    content: " ";
+    position: absolute;
+
+    bottom: -13px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+
+    background-color: rgb(70, 233, 37);
+    z-index: 3;
+}
+
+.catalogue {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0 30px;
+}
+
+.food-card {
+    border-radius: 15px;
+    overflow:hidden;
+    height: 250px;
+    width: 250px;
+}
+
+.card-top {
+    height: 70%;
+    position: relative;
+}
+
+.card-img {
+    background-image: url("images/food2.jpg");
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.like-button {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+
+
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+
+
+    z-index: 5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.image-overlay {
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+
+    transition: all 0.1s ease-in;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+}
+
+
+
+.add-to-cart {
+    background-color: rgb(51, 165, 51);
+    color: white;
+    font-size: 1rem;
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+
+    cursor: pointer;
+}
+
+
+.text-content {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.food-titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-title, .food-price {
+    font-weight: bold;
+}
+
+.food-subtitle {
+    font-weight: light;
+    font-size: 0.9rem;
+}
+
+
+
+
+.cart {
+    min-width: 320px;
+    /* flex-grow: 2; */
+
+
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 15px;
+    padding: 20px;
+
+    z-index: 3;
+}
+
+
+.selected-dishes {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.selected-dish {
+    padding: 10px;
+    border-right: 3px solid rgba(0,0,0,0.1);
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.dish-text {
+    margin-bottom: 1rem;
+}
+
+.dish-img {
+    height: 100px;
+    width: 100px;
+    
+    border-radius: 15px;
+    background-image: url("images/food2.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.dish-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.fa-times {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+
+.dropdown {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
+.proceed-to-checkout {
+    padding: 15px 65px;
+    background-color: rgb(51, 165, 51);
+    text-transform: uppercase;
+
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
