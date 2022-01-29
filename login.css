@@ -1,0 +1,27 @@
+body::after {
+    content: "";
+    width: 180vh;
+    height: 150vh;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: -99.8%;
+    left: -28%;
+
+
+    background-color: rgba(111, 228, 111, 0.3);
+    z-index: -2;
+
+    
+}
+
+
+input {
+    padding: 7px 50px;
+    text-align: center;
+    border-radius: 25px;
+
+    font-size: 1rem;
+    border: 2px solid rgb(26, 156, 26);
+
+}

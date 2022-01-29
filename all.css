@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,700&family=Mochiy+Pop+P+One&display=swap');
+
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1, h2, .brand-name {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h3, h4, h5, h6, p, a, i, span, button, label {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    width: 180vh;
+    height: 150vh;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -84%;
+    right: -20%;
+
+
+    background-color: rgba(111, 228, 111, 0.3);
+    z-index: -1;
+
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar .brand .brand-name {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar i {
+    color: rgb(51, 165, 51);
+    font-size: 1.5rem;
+}
+
+.navbar .nav-items {
+    display: flex;
+    justify-content: space-around;
+    min-width: 25%;
+}
+
+.navbar .nav-items .nav-item {
+    color: rgb(15, 20, 15);
+    font-size: 1rem;
+}
+
+.navbar .fa-key {
+    /* color: black; */
+    font-size: 1.8rem;
+}
+
+
+.centered-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50vh;
+    transform: translateY(-100%);
+
+    /* background: rgba(0, 0, 0, 0.21); */
+    
+
+
+
+}
+
+.centered-area input, .pill-button {
+    box-shadow: 6px 2px 99px 53px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 6px 2px 99px 53px rgba(0,0,0,0.1);
+    -moz-box-shadow: 6px 2px 99px 53px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+}
+
+.pill-button {
+    text-decoration: none;
+    margin-top: 2rem;
+    padding: 10px 100px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(51, 165, 51);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
