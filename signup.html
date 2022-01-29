@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/all.css">
     <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/signup.css">
     <title>Sign Up | Foodgasm</title>
     <link rel="icon" href="images/pizza-logo.png" type="image/x-icon">
 
@@ -36,25 +37,35 @@
 
 
         <div class="centered-area">
-            <div class="input-field">
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" class="input">
+            <div class="input-group">
+                <div class="input-field">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" class="input">
+                </div>
+                <div class="input-field">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" class="input">
+                </div>
             </div>
-            <div class="input-field">
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" class="input">
-            </div>
+           <div class="input-group">
             <div class="input-field">
                 <label for="email">Email</label>
                 <input type="email" name="email" class="input">
             </div>
             <div class="input-field">
-                <label for="password">Password</label>
-                <input type="password" name="password" class="input">
+                <label for="username">Username</label>
+                <input type="email" name="username" class="input">
             </div>
-            <div class="input-field">
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" name="confirm-password" class="input">
+           </div>
+            <div class="input-group">
+                <div class="input-field">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" class="input">
+                </div>
+                <div class="input-field">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" class="input">
+                </div>
             </div>
 
             <a href="foods.html" class="pill-button login-button">

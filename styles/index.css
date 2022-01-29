@@ -14,13 +14,13 @@ body {
 }
 
 .left-side .title-text {
-    font-size: 3rem;
+    font-size: 4rem;
     color: rgb(51, 165, 51);
     margin: 0;
 }
 
 .left-side .title-text-2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: black;
     font-weight: normal;
     margin: 0;
@@ -28,7 +28,8 @@ body {
 }
 
 .left-side .subtitle-text {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.7);
 }
 .left-side .order-button {
     margin-top: 2rem;

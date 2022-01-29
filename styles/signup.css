@@ -1,0 +1,7 @@
+.input-group {
+    display: flex;
+}
+
+.input-group * {
+    margin: 0.2rem;
+}
