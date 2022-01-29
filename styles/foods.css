@@ -112,12 +112,30 @@
 }
 
 .card-img {
-    background-image: url("../images/food2.jpg");
     border-radius: 15px;
     background-size: cover;
     background-position: center;
     height: 100%;
     width: 100%;
+}
+
+.card-img1 {
+    background-image: url("../images/food2.jpg");
+}
+.card-img2 {
+    background-image: url("../images/pancakes.jpg");
+}
+.card-img3 {
+    background-image: url("../images/eggs.jpg");
+}
+.card-img4 {
+    background-image: url("../images/strawberry.jpg");
+}
+.card-img5 {
+    background-image: url("../images/vegetable-salad.jpg");
+}
+.card-img6 {
+    background-image: url("../images/pizza.jpg");
 }
 
 .like-button {
@@ -244,10 +262,19 @@
     width: 100px;
     
     border-radius: 15px;
-    background-image: url("../images/food2.jpg");
     background-size: cover;
     background-position: center;
     margin-right: 20px;
+}
+
+.dish-img1 {
+    background-image: url("../images/vegetable-salad.jpg");
+}
+.dish-img2 {
+    background-image: url("../images/pizza.jpg");
+}
+.dish-img3 {
+    background-image: url("../images/strawberry.jpg");
 }
 
 .dish-bottom {
